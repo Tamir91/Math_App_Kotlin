@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Math_App_Kotlin</string>
+    <string name="first_round">First Round</string>
+    <string name="button">I Know</string>
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tamir.math_app_kotlin.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/ll_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light"
+        android:orientation="vertical"
+        android:padding="25dp">
+
+        <TextView
+            android:id="@+id/num_round_str"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/first_round"
+            android:textColor="#6dffbf"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/tv_num1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textAlignment="center"
+            android:textColor="#6bfff7"
+            android:textColorHint="#52afaa"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/tv_sign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textAlignment="center"
+            android:textColor="@android:color/holo_orange_dark"
+            android:textColorHint="#52afaa"
+            android:textSize="60sp" />
+
+        <TextView
+            android:id="@+id/tv_num2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:textAlignment="center"
+            android:textColor="#6bfff7"
+            android:textColorHint="#52afaa"
+            android:textSize="60sp" />
+
+        <Button
+            android:id="@+id/bAnswer"
+            style="@style/Base.TextAppearance.AppCompat.Widget.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/button"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
